@@ -8,8 +8,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import static java.lang.System.out;
-
-public class WordManager extends HttpServlet {
+ 
+public class  WordManager extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter out = resp.getWriter();
